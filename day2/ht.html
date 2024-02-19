@@ -1,0 +1,78 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log in</title>
+    <link rel="stylesheet" href="sty.css" type="text/css">
+</head>
+<body>
+    <div class="inner-body">
+
+        <div class="login-card">
+            
+            <div class="login-card-header" id="login-header">
+                <h2>Login</h2>
+                <p>Hello welcome to Lorem Ipsum is simply a dummy text</p>
+            </div>
+            <!-- <button onclick="myclickfunc()">Save</button> -->
+            
+            <div class = "data-entry" id="de">
+             </div>
+
+        </div>
+
+    </div>
+    <script>
+        const dataEntry = document.querySelector("#de");
+
+        //labels js variable
+        const userLabel = document.createElement("label");
+        const passLabel = document.createElement("label");
+
+        //input js variable
+        const inputUser = document.createElement("input");
+        const inputPass = document.createElement("input");
+
+        //username label
+        userLabel.innerHTML="Username";
+        dataEntry.appendChild(userLabel);
+        //input user
+        dataEntry.appendChild(inputUser);
+        //inputUser.setAttribute("type", "Email");
+        inputUser.setAttribute("placeholder", "Enter your email");
+
+        //password label
+        passLabel.innerHTML="Password";
+        dataEntry.appendChild(passLabel);
+        //input password
+        dataEntry.appendChild(inputPass);
+        inputPass.setAttribute("type", "password");
+        inputPass.setAttribute("placeholder", "Enter your password");
+
+        //console work
+        let name = inputUser.value;
+        let pass = inputPass.value;
+
+        //button js variable
+        const loginButton = document.createElement("button");
+
+        //button calling it class btn so as to preserve the css
+        loginButton.innerHTML ="Login to your";
+        dataEntry.appendChild(loginButton);
+        loginButton.setAttribute("type", "submit")
+        loginButton.setAttribute("class", "btn");
+        function displayUserName(){
+            console.log("working")
+         }
+        loginButton.addEventListener("click",displayUserName);
+
+        const database = {
+            "navya@gmail.com": "987654321",
+            "ayvan@gmail.com": "987654321"
+        }
+
+        
+    </script>
+    </body>
+</html>

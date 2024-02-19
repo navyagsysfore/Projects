@@ -1,0 +1,158 @@
+*{
+    margin:0px;
+    
+}
+
+.body{
+    background-color: #f8f8f9;
+    width: 100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.logo-header{
+    display: flex;
+    width: 100%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    align-items: center;
+    justify-content: center;
+    background-color: #2e3192;
+}
+
+.logo{
+    height: 45px;
+    width: 150px;
+    padding-left: 30px;
+}
+
+.logo-header ul{
+    display: flex;
+    margin-left: 30px;
+    padding: 10px;
+    gap:30px;
+}    
+.logo-header ul li{
+    list-style: none;
+    font-size: 14px;
+    text-transform: uppercase;
+    padding-right: 20px;
+}   
+.side-header{
+    margin-left: auto;
+    padding: 10px;
+    color: white;
+} 
+.user-name{
+    font-weight: bold;
+}
+
+
+.greetings{
+    font-size: 12px;
+}
+
+a{
+    text-decoration: none;
+    color: azure;
+}
+
+a:hover{
+    color: white;
+}
+
+.nav-bar h4{
+    padding: 10px;
+    margin: 0px;
+}
+.nav-bar{
+    padding: 1px;
+}
+
+.inner-body{
+    padding: 15px;
+    background-color:azure;
+    height: 505px;
+}
+.box{
+    padding: 30px;
+    background-color: whitesmoke;
+    margin: 20px;
+    height: 350px;
+}
+.grid-c{
+    padding: 15px;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 33% 33% 33%;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    text-transform: uppercase;
+}
+.form-group{
+    padding:0px;
+    margin: 0px;
+   }
+.form-label{
+    display:block;
+    padding: 0px;
+    margin: 0px;
+    font-size: 200;
+    padding-left: 0px;
+    font-weight: bold;
+   }
+.input-form{
+    padding:10px;
+    margin: 0px;
+    width: 50vh;
+}    
+select{
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid black;
+    border-radius: 4px;
+    width: 50%;
+}
+.btnc{
+       text-align: center;
+       padding: 10px;
+       margin: 50px; 
+       background-color: rgb(221,67,11); 
+       float: right;
+       border-style: none;
+       border: 1px solid black;
+       width: 10%;
+}
+ .btns{
+       text-align: center;
+       padding: 10px;
+       margin: 50px; 
+       background-color: rgb(161,157,150); 
+       float: right;
+       border-style: none;
+       border: 1px solid black;
+       width: 10%;
+}
+ 
+footer{
+    height: 10%;
+    position: fixed;
+    text-align: center;
+    bottom:0;
+    width: -webkit-fill-available;
+    color: rgb(197, 192, 185);
+}    
+.grid-c input{
+        padding: 10px;
+        width: 160px;
+    
+}
+.label9 textarea{
+    width: 400%;
+    height: 100px;
+    
+}
+
+
+
